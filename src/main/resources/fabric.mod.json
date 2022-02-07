@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "betternetherite",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Better Netherite",
+  "description": "Better Netherite makes piglins neutral. Netherite is made with gold, after all.",
   "authors": [
-    "Me!"
+    "Ginsm"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/ginsm/better-netherite"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.mgin.betternetherite.BetterNetherite"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "betternetherite.mixins.json"
   ],
 
   "depends": {
@@ -32,7 +31,5 @@
     "minecraft": "1.18.x",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": {}
 }
