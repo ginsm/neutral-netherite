@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# Neutral Netherite
 
-## Setup
+Neutral Netherite is a small mod that causes piglins to be neutral whilst you're wearing netherite. Netherite ingots require gold, after all.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+For dedicated servers you will only need to install this mod server-side.
 
-## License
+ 
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Want to show your support?
+
+<a href="https://www.buymeacoffee.com/mgin"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=mgin&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
