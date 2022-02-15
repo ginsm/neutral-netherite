@@ -1,4 +1,4 @@
-package me.mgin.betternetherite.mixin;
+package me.mgin.neutralnetherite.mixin;
 
 import org.jetbrains.annotations.NotNull;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "betternetherite",
+  "id": "neutralnetherite",
   "version": "${version}",
 
-  "name": "Better Netherite",
-  "description": "Better Netherite makes piglins neutral. Netherite is made with gold, after all.",
+  "name": "Neutral Netherite",
+  "description": "Neutral Netherite makes piglins neutral. Netherite is made with gold, after all.",
   "authors": [
     "Ginsm"
   ],
   "contact": {
-    "sources": "https://github.com/ginsm/better-netherite"
+    "sources": "https://github.com/ginsm/neutral-netherite"
   },
 
   "license": "MIT",
@@ -18,13 +18,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.mgin.betternetherite.BetterNetherite"
+      "me.mgin.neutralnetherite.NeutralNetherite"
     ]
   },
   "mixins": [
-    "betternetherite.mixins.json"
+    "neutralnetherite.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.12.12",
     "fabric": "*",
